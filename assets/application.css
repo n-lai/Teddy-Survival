@@ -1,3 +1,48 @@
+html, body {
+  height: 100%;
+  width: 100%;
+}
+ html, body, section, article, h1, h2, h3, h6, p, strong, em, a, select, ul, li, input,a textarea, button, img {
+  margin: 0;
+  border: 0;
+  padding: 0;
+  outline: 0;
+
+  box-sizing: inherit;
+  font: inherit;
+  text-align: inherit;
+  text-decoration: inherit;
+  color: inherit;
+
+  background: transparent;
+
+  font-size: 14px;
+  font-weight: 300;
+  font-family: Circular, "Helvetica Neue", Helvetica, Arial, sans-serif;
+
+  list-style-type: none;
+}
+
 body {
   text-align: center;
+}
+
+h1 {
+  font-size: 40px;
+  font-weight: bold;
+}
+
+.info {
+  position: absolute;
+  top: 0%;
+  right: calc(0% + 131px);
+  margin: 10px;
+}
+
+.game-content {
+  position: relative;
+}
+
+#timer {
+  font-size: 20px;
 }

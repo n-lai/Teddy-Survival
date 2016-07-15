@@ -2,10 +2,29 @@
 <html>
   <head>
     <meta charset="utf-8">
+    <link href="./assets/application.css" type="text/css" rel="stylesheet"/>
+    <script src="https://code.jquery.com/jquery-1.11.3.min.js"></script>
+    <script type="application/javascript" src="lib/bundle.js"></script>
     <title></title>
   </head>
   <body>
-    <canvas id="canvas"></canvas>
-    <script type="application/javascript" src="lib/bundle.js"></script>
+    <section>
+      <article class="main" id="main">
+        <h1>Survival of the Teddy</h1>
+        <p>
+          Dodge the Werewolves for as long as you can with the arrow keys!
+        </p>
+        <div class="game-content">
+          <canvas id="canvas"></canvas>
+          <div class="info">
+            <div id="timer">
+              Timer: 0
+            </div>
+            <button id="pause">Pause</button>
+          </div>
+        </div>
+      </article>
+    </section>
+
   </body>
 </html>
