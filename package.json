@@ -1,0 +1,23 @@
+{
+  "name": "new_js_project",
+  "version": "1.0.0",
+  "description": "",
+  "main": "webpack.config.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/n-lai/n-lai.github.io.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/n-lai/n-lai.github.io/issues"
+  },
+  "homepage": "https://github.com/n-lai/n-lai.github.io#readme",
+  "dependencies": {
+    "sweetalert": "^1.1.3"
+  }
+}
