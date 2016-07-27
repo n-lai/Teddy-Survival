@@ -2,7 +2,7 @@
 
 [Survival of the Teddy live][link]
 
-[link]: n-lai.github.io/Teddy-Survival
+[link]: https://n-lai.github.io/Teddy-Survival/
 
 Survival of the Teddy is a game built with JavaScript, Canvas, and HTML/CSS. It features a teddy as the protagonist that has to dodge enemy werewolves.
 
